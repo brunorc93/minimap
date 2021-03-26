@@ -22,9 +22,9 @@ The full Unity Project can be followed [here](https://github.com/brunorc93/procg
 
 ---------------------------------------------------------------------------
 
-This module runs some of the previous modules to generate and island shape followed by separating it into biomes and giving those biomes generic names. It then creates a visualization of this generated location with buttons to either <ins>SAVE</ins> when finished the generated texture or <ins>RESET</ins> the generation back to its beginning, generating a new drawing.
+This module runs some of the previous modules to generate and island shape followed by separating it into biomes and giving those biomes generic names. It then creates a visualization of this generated location with buttons to either `save` when finished the generated texture or `reset` the generation back to its beginning, generating a new drawing.
 
-This visualization shows the user the <ins>HOVER</ins>ed region's name below the map, alongside an identifier. Coastal regions are written as (main_region)(main_ID)-(coastal_subregion)(coastal_ID)
+This visualization shows the user the `hover`ed region's name below the map, alongside an identifier. Coastal regions are written as (main_region)(main_ID)-(coastal_subregion)(coastal_ID)
 
 A time counter is shown on the bottom left of the screen. On top of the screen, during the generation, a message is displayed indicating info related to which part of the process it is currently in.
 
