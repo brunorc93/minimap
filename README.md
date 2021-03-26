@@ -30,7 +30,7 @@ A time counter is shown on the bottom left of the screen. On top of the screen, 
 
 Images of the screen for different parts of the generation process can be seen below:
 
-<div style="display: inline-block">
+<div style="display: inline-block" align="center">
   <img style="float: left;" src="GitHub/1.png?raw=true" width="350" alt="Program windown. Generating shape">
   <img style="float: left;" src="GitHub/2.png?raw=true" width="350" alt="Program windown. Finished generating coastal subregions">
   <img style="float: left;" src="GitHub/3.png?raw=true" width="350" alt="Program windown. Expanding inland regiones">
