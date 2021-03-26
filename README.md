@@ -1,5 +1,7 @@
 # Island generator — Minimap preview
 
+[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/brunorc93/minimap?color=green&include_prereleases)](https://github.com/brunorc93/minimap/releases/tag/v0.0.1)
+
 Terrain Procedural Generation — Minimap preview
 
 Created in Unity3D using C#, unity's Texture2D and 3D Quads.
@@ -20,10 +22,20 @@ The full Unity Project can be followed [here](https://github.com/brunorc93/procg
 
 ---------------------------------------------------------------------------
 
-This module runs some of the previous modules to generate and island shape followed by separating it into biomes and giving those biomes generic names. It then creates a visualization of this generated location with buttons to either **SAVE** when finished the generated texture or **RESET** the generation back to its beginning, generating a new drawing.
+This module runs some of the previous modules to generate and island shape followed by separating it into biomes and giving those biomes generic names. It then creates a visualization of this generated location with buttons to either <ins>SAVE</ins> when finished the generated texture or <ins>RESET</ins> the generation back to its beginning, generating a new drawing.
 
-This visualization shows the user the **HOVER**ed region's name below the map, alongside an identifier. Coastal regions are written as (main_region)(main_ID)-(coastal_subregion)(coastal_ID)
+This visualization shows the user the <ins>HOVER</ins>ed region's name below the map, alongside an identifier. Coastal regions are written as (main_region)(main_ID)-(coastal_subregion)(coastal_ID)
 
-A time counter is shown on the bottom left of the screen.
+A time counter is shown on the bottom left of the screen. On top of the screen, during the generation, a message is displayed indicating info related to which part of the process it is currently in.
 
 Images of the screen for different parts of the generation process can be seen below:
+
+<div style="display: inline-block">
+  <img style="float: left;" src="GitHub/1.png?raw=true" width="450" alt="Program windown. Generating shape">
+  <img style="float: left;" src="GitHub/2.png?raw=true" width="450" alt="Program windown. Finished generating coastal subregions">
+  <img style="float: left;" src="GitHub/3.png?raw=true" width="450" alt="Program windown. Expanding inland regiones">
+  <img style="float: left;" src="GitHub/4.png?raw=true" width="450" alt="Program windown. Island generation finished">
+  <img style="float: left;" src="GitHub/5.png?raw=true" width="450" alt="Program windown. Hovering a region">
+  <img style="float: left;" src="GitHub/6.png?raw=true" width="450" alt="Program windown. Hovering a coastal subregion">
+</div>
+
